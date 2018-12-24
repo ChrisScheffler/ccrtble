@@ -1,0 +1,26 @@
+{
+  "name": "ccrtble",
+  "version": "0.0.1",
+  "description": "Node.js package for the eQ-3 Eqiva Smart Radiator Thermostat (CC-RT-BLE-EQ)",
+  "main": "./lib/ccrtble.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisScheffler/ccrtble.git"
+  },
+  "author": "ChrisScheffler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChrisScheffler/ccrtble/issues"
+  },
+  "homepage": "https://github.com/ChrisScheffler/ccrtble#readme",
+  "dependencies": {
+    "noble": "Timeular/noble#refactor",
+    "debug": "^3.1.0"
+  },
+  "devDependencies": {
+    "xo": "^0.23.0"
+  }
+}
